@@ -1,0 +1,123 @@
+body{
+   background-image:linear-gradient(to bottom right,rgb(0, 153, 255) , violet) ; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0px;
+   padding: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin: 0px;
+    border-radius: 30px;
+    height: 850px;
+}  
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.img1{
+    width: 150px;
+}
+.container .fa-bag-shopping {
+    font-size:50px;
+    padding-right: 30px;
+}
+.img2{
+    width: 350px;
+    height: 350px;
+    transform: rotate(20deg);
+
+}
+.di{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.stars {
+  font-size: 24px;
+  color: #222;
+}
+
+.filled {
+  color: #000;
+}
+
+.empty {
+  color: #aaa; 
+}
+.color-radio {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.color-radio input[type="radio"] {
+  display: none;
+}
+
+.radio-mark {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+
+
+.color-radio.blue .radio-mark {
+  background-color: #007bff;
+}
+
+.color-radio.pink .radio-mark {
+  background-color: #ff69b4;
+}
+
+.color-radio.yellow .radio-mark {
+  background-color: #f7d100;
+}
+
+
+.color-radio.blue input[type="radio"]:checked + .radio-mark {
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}
+
+.color-radio.pink input[type="radio"]:checked + .radio-mark {
+  box-shadow: 0 0 0 4px rgba(255, 105, 180, 0.5);
+}
+
+.color-radio.yellow input[type="radio"]:checked + .radio-mark {
+  box-shadow: 0 0 0 4px rgba(247, 209, 0, 0.5);
+}
+
+.d1{
+    display: flex;
+    justify-content: space-between;
+}
+.d3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.btn1{
+    width:100%;
+    height: 50px;
+    border: 0px;
+    padding: 10px;
+    background-image:linear-gradient(to right,rgb(0, 153, 255) , violet) ;
+    border-radius: 40px;
+    color: white;
+}
+.btn1:hover{
+}
